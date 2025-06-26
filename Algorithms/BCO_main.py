@@ -2,7 +2,7 @@ import numpy as np
 import time
 
 class BacterialColonyOptimization:
-    def __init__(self, fitness_function, bounds, num_bacteria=30, num_iterations=100,
+    def __init__(self, fitness_function, bounds, num_bacteria=300, num_iterations=100,
                  C_min=0.01, C_max=0.1, n=2,
                  reproduction_interval=20, migration_interval=30, migration_prob=0.1):
         self.fitness_function = fitness_function

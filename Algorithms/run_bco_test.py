@@ -1,4 +1,4 @@
-from bco import BacterialColonyOptimization
+from BCO_main import BacterialColonyOptimization
 import numpy as np
 import matplotlib.pyplot as plt
 
