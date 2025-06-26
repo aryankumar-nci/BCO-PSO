@@ -5,12 +5,9 @@ import matplotlib.pyplot as plt
 # benchmark fitness function- Sphere
 def sphere(x):
     return np.sum(x**2)
-
-# parameters
 bounds = (-5.12, 5.12)  
 num_dimensions = 30
 
-# BCO optimizer
 bco = BacterialColonyOptimization(
     fitness_function=sphere,
     bounds=bounds,
@@ -18,7 +15,6 @@ bco = BacterialColonyOptimization(
     num_iterations=100
 )
 
-# optimization
 best_sol, best_score, curve = bco.optimize(num_dimensions)
 
 # Output

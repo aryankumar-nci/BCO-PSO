@@ -16,13 +16,8 @@ problem = {
     "minmax": "min",
 }
 
-# Create and run the PSO model
-
 model = OriginalPSO(epoch=100, pop_size=700, c1=2.05, c2=2.05, w=0.4)
 
-
-
-# Solve and collect results
 best = model.solve(problem)
 curve = model.history.list_global_best_fit
 
