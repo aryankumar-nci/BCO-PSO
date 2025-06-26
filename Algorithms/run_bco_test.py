@@ -14,7 +14,7 @@ num_dimensions = 30
 bco = BacterialColonyOptimization(
     fitness_function=sphere,
     bounds=bounds,
-    num_bacteria=50,
+    num_bacteria=700,
     num_iterations=100
 )
 

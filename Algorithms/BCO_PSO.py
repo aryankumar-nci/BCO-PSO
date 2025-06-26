@@ -87,7 +87,9 @@ class BCO_PSO_Hybrid:
             print(f"Iteration {iteration+1}/{self.num_iterations}, Best Fitness = {G_best_score:.6f}")
 
         end_time = time.time()
+        print(f"\n Best Fitness Score: {G_best_score:.6f}")
         print(f"\nTotal Execution Time: {end_time - start_time:.4f} seconds")
+        
 
         return G_best, G_best_score, best_curve
 
@@ -100,7 +102,7 @@ def sphere(x):
 optimizer = BCO_PSO_Hybrid(
     fitness_function=sphere,
     bounds=(-5.12, 5.12),
-    num_bacteria=30,
+    num_bacteria=700,
     num_iterations=100
 )
 
