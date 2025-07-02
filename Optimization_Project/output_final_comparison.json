@@ -14,5 +14,13 @@
         "execution_time": 31.6569,
         "num_bacteria": 100,
         "num_iterations": 20
+    },
+    {
+        "algorithm": "BCO_PSO Hybrid",
+        "dataset": "data_10000_5.json",
+        "best_fitness": 58336.0,
+        "execution_time": -1796.295,
+        "num_bacteria": 100,
+        "num_iterations": 20
     }
 ]
