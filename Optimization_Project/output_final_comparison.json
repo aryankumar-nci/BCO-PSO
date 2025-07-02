@@ -1,0 +1,18 @@
+[
+    {
+        "algorithm": "BCO\u2013PSO Hybrid",
+        "dataset": "data_10000_5.json",
+        "best_fitness": 21255.199999999626,
+        "execution_time": 31.6569,
+        "num_bacteria": 100,
+        "num_iterations": 20
+    },
+    {
+        "algorithm": "BCO_PSO Hybrid",
+        "dataset": "data_10000_5.json",
+        "best_fitness": 21255.199999999626,
+        "execution_time": 31.6569,
+        "num_bacteria": 100,
+        "num_iterations": 20
+    }
+]
