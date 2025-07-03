@@ -22,5 +22,29 @@
         "execution_time": -1796.295,
         "num_bacteria": 100,
         "num_iterations": 20
+    },
+    {
+        "algorithm": "BCO_PSO Hybrid",
+        "dataset": "data_10000_5.json",
+        "best_fitness": 58272.0,
+        "execution_time": 63.6231,
+        "num_bacteria": 100,
+        "num_iterations": 20
+    },
+    {
+        "algorithm": "BCO_PSO Hybrid",
+        "dataset": "data_10000_5.json",
+        "best_fitness": 58464.0,
+        "execution_time": 61.985,
+        "num_bacteria": 100,
+        "num_iterations": 20
+    },
+    {
+        "algorithm": "BCO_PSO Hybrid",
+        "dataset": "data_10000_5.json",
+        "best_fitness": 58272.0,
+        "execution_time": 86.5081,
+        "num_bacteria": 100,
+        "num_iterations": 20
     }
 ]
